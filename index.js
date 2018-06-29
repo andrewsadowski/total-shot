@@ -18,7 +18,9 @@ var options = {
 };
 
 for (i in urls) {
-    webshot(urls[i], `output/${i}.jpeg`, options, function (err) {
+    let urlName = urls[i].replace('https://', '');
+    let finalUrl = urlName.replace('/', '-');
+    webshot(urls[i], `output/${finalUrl}.jpeg`, options, function (err) {
         if (err) throw err;
     });
 }
