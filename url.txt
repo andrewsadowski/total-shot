@@ -1,0 +1,4 @@
+www.google.com
+www.yahoo.com
+https://www.npmjs.com/
+https://github.com/brenden/node-webshot
