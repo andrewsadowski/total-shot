@@ -19,11 +19,11 @@ var options = {
 
 for (i in urls) {
     webshot(urls[i], `output/${i}.jpeg`, options, function (err) {
-        // screenshot now saved to flickr.jpeg
+        if (err) throw err;
     });
 }
 
-webshot('amazon.com', './amazon.png', function (err) {
-    if (err) return console.log(err);
-    console.log('OK');
-});
+// webshot('amazon.com', './amazon.png', function (err) {
+//     if (err) return console.log(err);
+//     console.log('OK');
+// });
