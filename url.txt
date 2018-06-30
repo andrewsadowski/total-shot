@@ -1,4 +1,3 @@
 www.yahoo.com
+www.google.com
 https://www.npmjs.com/
-https://github.com/brenden/node-webshot
-https://github.com/andrewsadowski
