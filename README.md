@@ -8,7 +8,7 @@ Compile all URLs you want screenshots of into a text file, separated by line-bre
 
 ### Prerequisites
 
-Recent version of NodeJS and PhantomJS installed.
+Recent version of NodeJS installed and configured. PhantomJS is required, if it is not installed, a pre-built version will be installed on `npm install`
 
 ### Installing
 
