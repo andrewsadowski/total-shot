@@ -1,5 +1,6 @@
 const webshot = require('node-webshot');
 const fs = require('fs');
+const path = require('path');
 const chalk = require('chalk');
 const argv = require('yargs')
   .alias('f', 'filePath')
@@ -15,8 +16,9 @@ const argv = require('yargs')
 let filePath;
 let outputPath;
 
-if (argv.f) {
+if (argv.f && argv.o) {
   filePath = argv.f;
+  outputPath = argv.o;
 } else {
   filePath = './url.txt';
 }
