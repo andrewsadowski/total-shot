@@ -13,6 +13,7 @@ const argv = require('yargs')
   .help('h').argv;
 
 let filePath;
+let outputPath;
 
 if (argv.f) {
   filePath = argv.f;
