@@ -4,7 +4,12 @@ const chalk = require('chalk');
 const argv = require('yargs')
   .alias('f', 'filePath')
   .usage('Usage: add a file path with the -f flag')
-  .example('msNormalizer -f "/absolute/path/to/file.txt"')
+  .example('shootIt -f "/absolute/path/to/file.txt"')
+  .alias('o', 'outputPath')
+  .usage(
+    'Usage: Dictate the path you want the screenshots outputted to.'
+  )
+  .example('shootIt -o "/absolute/path/to/output"')
   .help('h').argv;
 
 let filePath;
