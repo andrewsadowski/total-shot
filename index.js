@@ -1,6 +1,10 @@
 const webshot = require("node-webshot");
 const fs = require("fs");
-const argv = require("yargs");
+const argv = require('yargs')
+  .alias('f', 'filePath')
+  .usage('Usage: add a file path with the -f flag')
+  .example('msNormalizer -f "/absolute/path/to/file.txt"')
+  .help('h').argv;
 
 const urls = fs
   .readFileSync("url.txt")
