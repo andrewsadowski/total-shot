@@ -1,5 +1,6 @@
 const webshot = require('node-webshot');
 const fs = require('fs');
+const chalk = require('chalk');
 const argv = require('yargs')
   .alias('f', 'filePath')
   .usage('Usage: add a file path with the -f flag')
