@@ -23,7 +23,7 @@ if (argv.f && argv.o) {
   filePath = './url.txt';
 }
 
-const executeRequest = (filePath, outputPath) => {
+const executeRequest = ((filePath, outputPath) => {
   const urls = fs
     .readFileSync(filePath)
     .toString()
@@ -50,4 +50,4 @@ const executeRequest = (filePath, outputPath) => {
       if (err) throw err;
     });
   }
-};
+})();
