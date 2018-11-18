@@ -50,4 +50,4 @@ const executeRequest = ((filePath, outputPath) => {
       if (err) throw err;
     });
   }
-})();
+})(filePath, outputPath);
