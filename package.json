@@ -4,10 +4,11 @@
   "description": "Get full page screenshots of multiple URLs",
   "url": "https://github.com/andrewsadowski/fullviewWebshot",
   "repository": "andrewsadowski/fullviewWebshot",
-  "main": "index.js",
+  "main": "lib/fullviewWebshot.js",
   "scripts": {
-    "start": "node index.js",
-    "start:watch": "nodemon index.js"
+    "start": "node lib/fullviewWebshot.js",
+    "start:watch": "nodemon lib/fullviewWebshot.js",
+    "test": "jest --watchAll"
   },
   "bin": {
     "shoot": "index.js"
@@ -21,6 +22,7 @@
   },
   "devDependencies": {
     "expect": "^23.6.0",
+    "jest": "^23.6.0",
     "mocha": "^5.2.0",
     "nodemon": "^1.17.5"
   }
