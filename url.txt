@@ -2,3 +2,4 @@ www.yahoo.com
 www.google.com
 https://www.npmjs.com/
 https://www.apple.com/iphone/
+https://github.com/appium-boneyard/sample-code/blob/master/sample-code/examples/node/helpers/setup.js
