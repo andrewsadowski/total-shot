@@ -1,10 +1,10 @@
 # total-shot
 
-This application parses a text file with URLs, separated by linebreaks, and takes fullview screenshots of them. The screenshots are outputted to a output/ directory.
+This application parses a text file with URLs, separated by linebreaks, and takes fullview screenshots of them. The screenshots are outputted to a output/ directory (by default a total-shot/ directory is created on your desktop).
 
 ## Getting Started
 
-Compile all URLs you want screenshots of into a text file, separated by line-breaks and name the file url.txt.
+Compile all URLs you want screenshots of into a text file, separated by line-breaks and name the file url.txt. Make sure there aren't empty lines!
 
 ### Prerequisites
 
@@ -14,7 +14,7 @@ Recent version of NodeJS installed and configured (https://nodejs.org/en/downloa
 
 Install Depenencies by typing:
 
-```
+```bash
 npm install -g total-shot
 ```
 
@@ -24,14 +24,14 @@ In order to feed the appropriate URLs into the program, provide a .txt file with
 
 Run program by typing:
 
-```
-totalShot -f '/absolute/path/to/text'
+```bash
+totalShot -f '/absolute/path/to/text.txt'
 ```
 
 Optionally, you can add an output directory of your choice with -o
 
-```
-totalShot -f '/absolute/path/to/text' -o '/absolute/path/to/output'
+```bash
+totalShot -f '/absolute/path/to/text.txt' -o '/absolute/path/to/output'
 ```
 
 ### Output
