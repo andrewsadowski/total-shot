@@ -15,15 +15,25 @@ Recent version of NodeJS installed and configured (https://nodejs.org/en/downloa
 Install Depenencies by typing:
 
 ```
-npm install
+npm install -g total-shot
 ```
+
+### Running
+
+In order to feed the appropriate URLs into the program, provide a .txt file with all URLs separated by line breaks. Feed the absolute path to that file to get the full-page screenshots!
 
 Run program by typing:
 
 ```
-npm run start
+totalShot -f '/absolute/path/to/text'
+```
+
+Optionally, you can add an output directory of your choice with -o
+
+```
+totalShot -f '/absolute/path/to/text' -o '/absolute/path/to/output'
 ```
 
 ### Output
 
-Check the screenshots in the output directory
+By default, a directory called 'total-shot' will be created on your Desktop, with a directory called 'output' containing full-page screenshots of the urls provided.
