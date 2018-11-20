@@ -12,7 +12,7 @@ Recent version of NodeJS installed and configured (https://nodejs.org/en/downloa
 
 ### Installing
 
-Install Depenencies by typing:
+Install by typing:
 
 ```bash
 npm install -g total-shot
