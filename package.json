@@ -11,7 +11,7 @@
     "test": "jest --watchAll"
   },
   "bin": {
-    "totalShot": "./bin/total-shot.js"
+    "totalShot": "./bin/total-shot_global.js"
   },
   "preferGlobal": true,
   "author": "Andrew Sadowski",
