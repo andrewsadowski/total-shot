@@ -13,6 +13,14 @@
   "bin": {
     "totalShot": "./bin/total-shot_global.js"
   },
+  "keywords": [
+    "screenshot",
+    "full-page",
+    "URL",
+    "screengrab",
+    "webshot",
+    "multiple"
+  ],
   "preferGlobal": true,
   "author": "Andrew Sadowski",
   "license": "ISC",
