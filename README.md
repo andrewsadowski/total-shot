@@ -1,4 +1,4 @@
-# fullviewWebshot
+# total-shot
 
 This application parses a text file with URLs, separated by linebreaks, and takes fullview screenshots of them. The screenshots are outputted to a output/ directory.
 
