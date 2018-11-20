@@ -1,13 +1,13 @@
 {
-  "name": "fullviewWebshot",
+  "name": "total-shot",
   "version": "1.0.0",
   "description": "Get full page screenshots of multiple URLs",
-  "url": "https://github.com/andrewsadowski/fullviewWebshot",
-  "repository": "andrewsadowski/fullviewWebshot",
+  "url": "https://github.com/andrewsadowski/total-shot",
+  "repository": "andrewsadowski/total-shot",
   "main": "lib/fullviewWebshot.js",
   "scripts": {
-    "start": "node lib/fullviewWebshot.js",
-    "start:watch": "nodemon lib/fullviewWebshot.js",
+    "start": "node lib/total-shot.js",
+    "start:watch": "nodemon lib/total-shot.js",
     "test": "jest --watchAll"
   },
   "bin": {
