@@ -1,4 +1,19 @@
-# total-shot
+<h1 align="center">Total-Shot</h1>
+
+<p align="center">
+  <a href="https://www.npmjs.com/package/total-shot">
+    <img src="https://img.shields.io/npm/v/total-shot.svg?style=flat-square" alt="npm version">
+  </a>
+    <a href="https://www.npmjs.com/package/total-shot">
+    <img src="https://img.shields.io/npm/dt/total-shot.svg?style=flat-square" alt="npm downloads">
+  </a>
+  <a href="https://www.npmjs.com/package/total-shot">
+    <img src="https://img.shields.io/npm/dm/total-shot.svg?style=flat-square" alt="npm downloads monthly">
+  </a>
+  <a href="https://github.com/prettier/prettier">
+    <img src="https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square" alt="code style" />
+  </a>
+</p>
 
 This application parses a text file with URLs, separated by linebreaks, and takes fullview screenshots of them. The screenshots are outputted to a output/ directory (by default a total-shot/ directory is created on your desktop).
 
