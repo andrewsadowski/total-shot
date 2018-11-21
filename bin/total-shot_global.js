@@ -16,7 +16,6 @@ const argv = require('yargs')
   .help('h').argv;
 
 const {
-  getUserDesktopPath,
   checkOrMakeDir
 } = require('../lib/utils');
 
