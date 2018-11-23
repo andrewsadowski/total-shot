@@ -13,7 +13,7 @@ const argv = require("yargs")
   .example('totalShot -o "/absolute/path/to/output"')
   .help("h").argv;
 
-const { checkOrMakeDir } = require("../lib/utils");
+const { checkOrMakeDir, handleUrl } = require("../lib/utils");
 
 let filePath;
 let outputPath;
