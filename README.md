@@ -1,5 +1,6 @@
-<h1 align="center">Total-Shot</h1>
-
+<div align="center">
+<img width="auto" height="auto" src="https://s3-us-west-2.amazonaws.com/andrew-sadowski-images/TotalShot_TextOnly_Logo.png">
+</div>
 <p align="center">
   <a href="https://www.npmjs.com/package/total-shot">
     <img src="https://img.shields.io/npm/v/total-shot.svg?style=flat-square" alt="npm version">
